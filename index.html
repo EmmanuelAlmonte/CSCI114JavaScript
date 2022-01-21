@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma's Shop</title>
+    <script src="/store.js" type="module"></script>
+    <script src="/jquery.js" type="application/javascript"></script>
+    <script src="/finalmain.js" type="application/javascript"></script>
+        <link rel="stylesheet" href="/main.css" type="text/css">
+</head>
+<body>
+    <div id="main-div">
+
+        <div id="content-items">
+            <h4 class="content">Content:</h4>
+            <span class="carsContent">Cars</span>
+            <span class="bikesContent">Bikes</span>
+            <span class="ballsContent"> Balls</span>
+            <span class="toysContent">Toys</span>
+            <select name="miscellaneous" id="miscellaneous-items">
+                <option >Art</option>     
+                <option >Stickers</option>
+                <option >Videos</option>
+                <option >Gloves</option>
+            </select>
+
+            <div >
+                <h3 id="web-title"></h3>
+            </div>
+            
+
+        </div>
+        <div id="cart">
+            <h4 >Gallery Selection</h4>
+            <div id="cart-content" class="clicks" >
+                <ul>
+                </ul>
+
+            </div>
+        </div>
+
+
+        <div id="forms">
+            <div id="guest-user">
+                <label><input type="radio" name="account-type" value="guest">Continue as Guest</label> 
+                <label><input type="radio" name="account-type" value="user">Create an Account</label>
+            </div>
+
+
+            <div class="clicked" id='user-info'>
+                <div >
+                    <label for="full-name"> Full Name </label>
+                    <input type="text" placeholder="Enter First and Last Name" id="full-name" name="fullName">
+                </div> 
+
+                <div>
+                    <label for="middle-name"> Full Name </label>
+                    <input type="text" placeholder="Enter middle name" id="middle-name" name="middleName">
+                </div>
+
+                <div>   
+                    <label for="item-int"> Number of Items </label>
+                    <input type="number" placeholder="Enter a number" id="item-int" name="item">
+                </div>
+                <div id="button">
+                    <input type="submit" value="Submit Info"/>
+                </div>
+
+                <div id="results"> 
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        
+        </div>
+
+        <div id="productDiv" class="imgsDiv hideImg">
+
+            <span id="productOne">
+                <h4 class="name"> Item 6</h4>            
+                <img id="firstImg" src="" alt="sample">
+
+                <input class="AddtoGallery" id="b1" type="submit" value="Add to Gallery">
+            </span>
+
+
+
+            <span id="productTwo">
+                <h4 class="name">Item 5 </h4>
+                <img id="secondImg" src="" alt="sample">
+
+                <input class="AddtoGallery" id="b2" type="submit" value="Add to Gallery">
+    
+            </span>
+
+
+            <span id="productThree">
+                <h4 class="name"> Item 4 </h4>
+                <img id="thirdImg" src="" alt="sample">
+                <input class="AddtoGallery"  id="b3" type="submit" value="Add to Gallery">
+            </span>
+
+
+            
+            <br>
+            
+            <span id="productFour">
+                <h4 class="name"> Item 3</h4>
+
+                <img id="fourthImg" src="" alt="sample">
+            
+                <input class="AddtoGallery" id="b4" type="submit" value="Add to Gallery">
+            </span>
+            
+
+            
+            <span  id="productFive"> 
+                <h4 class="name"> Item 2 </h4>
+                <img id="fifthImg" src="" alt="sample">
+            
+                <input class="AddtoGallery" id="b5" type="submit" value="Add to Gallery">
+            </span>
+            
+
+            
+            <span id="productSix">
+                <h4 class="name"> Item 1</h4>
+                <img id="sixthImg" src="" alt="sample">
+            
+                <input class="AddtoGallery"
+                id="b6" type="submit" value="Add to Gallery">
+
+            </span>
+            
+
+
+        </div>
+
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #CCCCFF;
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+span{
+    display: inline-block;
+}
+#main-div{
+    margin: -10px;
+}
+#main-div .content {
+    background-color: #FFCCFF;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+#content-items {
+    background-color: #FFCCFF;
+    border: none;
+}
+
+
+#miscellaneous-items {
+    background-color: #FFCCFF;
+}
+
+#forms {
+    
+    position: absolute;
+    border: 2px solid black;
+    background-color: lavender;
+    display: block;
+    padding: 10px;
+    width: 300px;
+
+}
+
+
+#cart {
+    position: absolute;
+    top: 10px;
+    left: 90%;
+    border: 3px blue;
+
+}
+#cart-content.clicks{
+    display: block;
+    border: none;
+    overflow: hidden;
+    height: 0px;
+
+}
+#user-info {
+    border: none;
+    overflow: hidden;
+    height: 0px;
+    transition: .5s;
+
+}
+#user-info.clicked {
+    height:100px;
+    background-color: lavender;
+    transition: .5s;
+}
+
+#web-title {
+    position: relative;
+    text-align: center;
+    top: -15px;
+
+}
+
+#forms{
+    margin-top: -19px;
+}
+
+#results {
+    display: none;
+}
+
+
+
+
+.hideImg{
+    display: none;
+}
+
+.name{
+    position: relative;
+    left: 150px;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#productDiv{
+    position: absolute;
+    top: 300px;
+}
+
+#firstImg{
+    position: relative;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    width: 200px;
+    padding: 10px;
+    height: 175px;
+
+
+
+}
+#secondImg{
+
+    margin-left: 150px;
+    margin-bottom: 100px;
+    width: 200px;
+    padding: 10px;
+    height: 175px;
+
+
+}
+
+#thirdImg{
+
+    margin-left: 150px;
+    margin-bottom: 100px;
+    width: 200px;
+    padding: 10px;
+    height: 175px;
+
+
+}
+
+
+#miscellaneous-items{
+    border: none ;
+}
+
+
+#fourthImg{
+
+    margin-left: 150px;
+    margin-bottom: 100px;
+    width: 200px;
+    padding: 10px;
+    height: 175px;
+
+
+
+}
+#fifthImg{
+    margin-left: 150px;
+    margin-bottom: 100px;
+    width: 200px;
+    padding: 10px;
+    height: 175px;
+
+
+}
+#sixthImg{
+
+    margin-left: 150px;
+    margin-bottom: 100px;
+    width: 200px;
+    padding: 10px;
+    height: 175px;
+
+
+}
+
+
+.AddtoGallery{
+    position: absolute;
+    padding: 2px;
+}
+
+

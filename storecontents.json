@@ -1,0 +1,80 @@
+{
+    "head":{"title":"Online Gallery of ", "type": "List"},
+    "body":{
+        "Products":[
+            {"CarType":[
+                { "name":"Sports Car","item number":"1c","cost":35},
+                { "name":"Custom Muscle Car","item number":"2c","cost":65},
+                { "name":"Exotic Car","item number":"3c","cost":750},
+                { "name":"Luxury Car","item number":"4c","cost":350},
+                { "name":"Convertible Car","item number":"5c","cost":150},
+                { "name":"Muscle Car","item number":"6c","cost":45}
+
+            ]},
+            {"BallType":[
+                { "name":"Baseball","item number":"bb","cost":5},
+                { "name":"Football","item number":"bb","cost":15},
+                { "name":"Soccer ball","item number":"bb","cost":30},
+                { "name":"Softball","item number":"bb","cost":15},
+                { "name":"Basketball","item number":"bb","cost":35},
+                { "name":"Tennis ball","item number":"bb","cost":50}
+
+            ]},
+            {"BikeType":[
+                { "name":"Sport Bike","item number":"b","cost":35},
+                { "name":"Black Bike","item number":"b","cost":35},
+                { "name":"Race dirt Bike","item number":"b","cost":35},
+                { "name":"Blue dirt Bike","item number":"b","cost":35},
+                { "name":"Tan Bike","item number":"b","cost":35},
+                { "name":"Motor Bike","item number":"b","cost":35}
+
+            ]},
+            {"ToyType":[
+                { "name":"Helicopter","item number":"1t","cost":35},
+                { "name":"Nerf Gun","item number":"2t","cost":35},
+                { "name":"Nerf Pistol","item number":"3t","cost":35},
+                { "name":"Plane","item number":"4t","cost":35},
+                { "name":"Water Gun","item number":"5t","cost":35},
+                { "name":"Water Pistol","item number":"6t","cost":35}
+
+            ]},
+            {"ArtType":[
+                { "name":"Chill","item number":"a","cost":35},
+                { "name":"Trippy","item number":"a","cost":35},
+                { "name":"Dimension","item number":"a","cost":35},
+                { "name":"Green","item number":"a","cost":35},
+                { "name":"Glass","item number":"a","cost":35},
+                { "name":"Pain","item number":"a","cost":35}
+
+            ]},
+            {"StickersType":[
+                { "name":"Sticker Pack 1","item number":"a","cost":35},
+                { "name":"Sticker Pack 2","item number":"a","cost":35},
+                { "name":"Sticker Pack 3","item number":"a","cost":35},
+                { "name":"GrSticker Pack 4","item number":"a","cost":35},
+                { "name":"Sticker Pack 5","item number":"a","cost":35},
+                { "name":"Sticker Pack 6","item number":"a","cost":35}
+
+            ]},
+            {"VideosType":[
+                { "name":"Doggy","item number":"a","cost":35},
+                { "name":"Good Work","item number":"a","cost":35},
+                { "name":"Great Job","item number":"a","cost":35},
+                { "name":"Kitty","item number":"a","cost":35},
+                { "name":"Puppy","item number":"a","cost":35},
+                { "name":"Shaq","item number":"a","cost":35}
+
+            ]},
+            {"GlovesType":[
+                { "name":"Baseball Glove","item number":"a","cost":35},
+                { "name":"Boxing Glove","item number":"a","cost":35},
+                { "name":"Football Glove","item number":"a","cost":35},
+                { "name":"Goalkeeper Glove","item number":"a","cost":35},
+                { "name":"Sports Glove","item number":"a","cost":35},
+                { "name":"Winter Glove","item number":"a","cost":35}
+
+            ]}
+            
+        ]
+    }
+}
